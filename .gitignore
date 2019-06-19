@@ -1,0 +1,51 @@
+tags
+*.pyc
+*.swp
+.python-version
+*.log
+*.un~
+local_mimir_settings.py
+.idea
+#bin
+.DS_Store
+.vscode
+gen-go
+*.so
+*.h
+_vendor-*
+clickstream/bin/profile
+clickstream/bin/river
+clickstream/bin/*.log
+*.swo
+*-dev.json
+
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+
+# PHPStorm
+.idea
+
+# project
+delay-queue/delay-queue
+delay-queue/main
+delay-queue/node_modules
+delay-queue/package.json
+
+# docker builder
+newsdog/rec_serving/deploy/docker/Python-2.7.10.tgz
+
+*.py
